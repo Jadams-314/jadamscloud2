@@ -1,0 +1,33 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <title>madlibs</title>
+  <!-- Things to do to use React
+    React 19: released September 2026
+    Use an Import Map for React 19 ESM (ECMA Script Modules)
+    Browswers need this to use import/export statement 
+     -->
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@19?dev",
+          "react-dom": "https://esm.sh/react-dom@19?dev",
+          "react-dom/client": "https://esm.sh/react-dom@19/client?dev"
+        }
+      }
+    </script>
+    <!-- Babel standalone for parsing JSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+  <div id="madlibs">
+    <!-- This element's contents will be replaced with your component. -->
+  </div>
+
+  <!-- Load our React component. -->
+  <script src="./javascripts/madlibs.js" type="text/babel" data-type="module"></script>
+
+</body>
+</html>

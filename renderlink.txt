@@ -1,0 +1,1 @@
+postgresql://justin:DbyQWynjevcf2SyeyTIA8cP14o21F4k2@dpg-dbm9tnijnfac738rtfug-a/jadamsdb
